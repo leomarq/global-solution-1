@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #243782;
+    background-color: #563A80;
     color: white;
     transition: 0.5s;
 }
