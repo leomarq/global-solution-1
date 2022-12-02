@@ -136,7 +136,6 @@ label {
 
 #container-recompensas p {
     color:#243782;
-    display: flex;
 }
 
 #conteudo-sidebar {
@@ -159,9 +158,9 @@ label {
 }
 
 #conteudo-recompensas {
-    width: 10%;
+    width: 50rem;
     height: fit-content;   
-    border-radius: 10%;
+    border-radius: 1.5rem;
     box-shadow: 
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048);
@@ -171,13 +170,38 @@ label {
     padding-left: 1%;
     padding-bottom: 1%;
     line-height: 130%;
+    margin-left: 15%;
+}
+
+.conteudo_recompensas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .botao_recompensas {
     border: none;
-    background: none;
-    font-size: 1.2rem;
+    background-color: white;
+    font-size: 1rem;
     color:#243782;
     padding: 0.5%;
     margin-right: 5%;
+    padding: 2%;
+    padding-bottom: 5%;
+    border-radius: 1rem;
+    width: 25%;
+    margin-bottom: 5%;
+}
+
+.botao_recompensas p {
+    margin-top: 10%;
+}
+
+.botao_recompensas:hover {
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+    transition: 0.4s;
 }
