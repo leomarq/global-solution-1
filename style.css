@@ -243,15 +243,56 @@ iframe {
     background-color: white;
     position: absolute;
     padding-top: 1%;
-    padding-left: 1%;
     padding-bottom: 1%;
     line-height: 130%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#usuario {
+#email {
     border: solid 1px lightgray;
     border-radius: 5rem;
     padding-left: 2%;
     width: 15rem;
+    height: 2rem;
+    margin-top: 10%;
+}
+
+#senha {
+    border: solid 1px lightgray;
+    border-radius: 5rem;
+    padding-left: 2%;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 10%;
+}
+
+#login {
+    border: solid 1px lightgray;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 10%;
+    font-size: 1rem;
+    margin-left: 33%;
+}
+
+#esqueceu-senha {
+    width: 12rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-left: 11%;
+}
+
+/* --------------------------------------------------------------- TROCAR SENHA --------------------------------------------------------------- */
+
+#recuperar-senha {
+    border: solid 1px lightgray;
+    border-radius: 0.5rem;
+    width: 9rem;
+    height: 2rem;
+    margin-top: 10%;
+    font-size: 1rem;
+    margin-left: 20%;
 }
