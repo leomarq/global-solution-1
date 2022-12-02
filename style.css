@@ -122,7 +122,6 @@ a {
     text-decoration: none;
     color: #243782;
 }
-}
 
 a:visited {
     text-decoration: none;
@@ -175,6 +174,12 @@ label {
     margin-left: 15%;
 }
 
+#busca-recompensas {
+    border: solid 1px lightgray;
+    border-radius: 5rem;
+    padding-left: 2%;
+}
+
 .conteudo_recompensas {
     display: flex;
     justify-content: space-evenly;
@@ -214,4 +219,39 @@ iframe {
     width: 60%;
     height: 40rem;
     position: absolute;
+}
+
+/* --------------------------------------------------------------- CONTA --------------------------------------------------------------- */
+
+#container-conta {
+    display: flex;
+    width: 100%;
+    color:#243782;
+}
+
+#container-conta p {
+    color:#243782;
+}
+
+#conteudo-conta {
+    width: 20%;
+    height: fit-content;   
+    border-radius: 1.5rem;
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+    background-color: white;
+    position: absolute;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    line-height: 130%;
+    display: flex;
+}
+
+#usuario {
+    border: solid 1px lightgray;
+    border-radius: 5rem;
+    padding-left: 2%;
+    width: 15rem;
 }
