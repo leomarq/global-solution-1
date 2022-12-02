@@ -285,6 +285,13 @@ iframe {
     margin-left: 11%;
 }
 
+#criar-conta {
+    width: 9rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-left: 22%;
+}
+
 /* --------------------------------------------------------------- TROCAR SENHA --------------------------------------------------------------- */
 
 #recuperar-senha {
@@ -295,4 +302,34 @@ iframe {
     margin-top: 10%;
     font-size: 1rem;
     margin-left: 20%;
+}
+
+/* --------------------------------------------------------------- CADASTRO --------------------------------------------------------------- */
+
+#criar {
+    border: solid 1px lightgray;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 10%;
+    font-size: 1rem;
+    margin-left: 15%;
+}
+
+#cpf {
+    border: solid 1px lightgray;
+    border-radius: 5rem;
+    padding-left: 2%;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 10%;
+}
+
+#celular {
+    border: solid 1px lightgray;
+    border-radius: 5rem;
+    padding-left: 2%;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 10%;
 }
